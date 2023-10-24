@@ -218,7 +218,7 @@
     max-width: 40px;
   }
   .contact-area {
-    padding: 110px 0px 110px;
+    padding: 150px 0px 30px;
   }
 
   .doc-area {
@@ -273,6 +273,10 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (max-width: 991px) {
+  .section.hero-area {
+    min-height: initial;
+    padding: 190px 0px 60px;
+  }
   .hero-content {
     text-align: center;
   }
@@ -287,6 +291,22 @@
     height: 80px;
     font-size: 15px;
   }
+
+  .section.clients-area {
+    min-height: unset;
+    padding: 70px 0px 80px;
+  }
+
+  .section.faq-area {
+    min-height: unset;
+    padding: 40px 0px 70px;
+  }
+
+  .section.work-area {
+    min-height: 100vh;
+    padding: 60px 0px 40px;
+  }
+
   .footer {
     padding: 65px 0px 40px;
   }
