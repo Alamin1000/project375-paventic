@@ -167,6 +167,8 @@ label {
   padding: 20px 0px 20px;
   background: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  -ms-backdrop-filter: blur(50px);
   transition: 0.3s;
 }
 .header.sticky .header-logo a img {
